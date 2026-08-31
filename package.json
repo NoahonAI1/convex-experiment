@@ -1,0 +1,19 @@
+{
+  "name": "convex-monorepo",
+  "private": true,
+  "packageManager": "pnpm@11.5.2",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "pnpm --recursive build",
+    "dev": "pnpm --parallel --filter @repo/backend --filter @repo/web dev",
+    "dev:backend": "pnpm --filter @repo/backend dev",
+    "dev:web": "pnpm --filter @repo/web dev",
+    "test": "pnpm --recursive test",
+    "typecheck": "pnpm --recursive typecheck"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
