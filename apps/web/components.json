@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
+  "style": "new-york-v4",
   "rsc": false,
   "tsx": true,
   "tailwind": {
@@ -15,5 +15,8 @@
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
+  },
+  "registries": {
+    "@better-auth-ui": "https://better-auth-ui.com/r/{style}/{name}.json"
   }
 }
