@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2023",
-    "types": ["vite/client", "vitest/globals"]
+    "types": ["bun"]
   },
-  "include": ["convex/**/*.ts", "vitest.config.ts"]
+  "include": ["convex/**/*.ts"]
 }
